@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarvis AI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #282c34;
+            color: #61dafb;
+            text-align: center;
+        }
+        #status {
+            margin-top: 20px;
+            font-size: 1.2rem;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            background-color: #61dafb;
+            border: none;
+            color: #282c34;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #21a1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1>Jarvis AI</h1>
+        <button onclick="startListening()" id="btn">Start Listening</button>
+        <div id="status">Click the button to start listening...</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
