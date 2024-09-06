@@ -30,7 +30,7 @@ if (command.includes('jarvis')) {
         window.open("https://www.github.com", "_blank");
     } else if (command.includes("open my website")) {
         window.open("https://tanjim-tawhid.github.io/Protfolio/", "_blank");  // Replace with your website
-    } else if (command.includes("open d")) {
+    } else if (command.includes("open cd")) {
         window.open("https://www.codingal.com/bn-BD/student/dashboard/", "_blank");
     } else if (command.includes("open c")||command.includes("open sea")) {
         window.open("https://chatgpt.com/?sso=", "_blank");
